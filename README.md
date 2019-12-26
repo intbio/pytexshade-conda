@@ -18,5 +18,5 @@ find output/ -name 'pytexshade*' -exec anaconda upload --force {} \;
 ## Installing  from Anaconda cloud
 
 ```
-conda install -c intbio -c conda-forge pytexshade
+conda install -c intbio -c conda-forge -c bioconda pytexshade
 ```
