@@ -9,7 +9,7 @@ conda install -y anaconda-client
 anaconda login
 
 conda-build -c r -c conda-forge -c bioconda pytexshade 
-anaconda upload --force path_to_package #or toggle automatic upload with: conda config --set anaconda_upload True
+#anaconda upload --force path_to_package #or toggle automatic upload with: conda config --set anaconda_upload True
 conda convert --platform all path_to_package -o output/
 find output/ -name 'pytexshade*' -exec anaconda upload --force {} \;
 #Manually upload for OSX and Linux
