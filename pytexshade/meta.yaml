@@ -25,7 +25,7 @@ requirements:
     - setuptools
     - biopython 
     - tectonic
-    - imagemagic
+    - imagemagick
     - ghostscript
 
 test:
